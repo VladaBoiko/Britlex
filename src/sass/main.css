@@ -1,50 +1,49 @@
-.page-header {
-  &__container {
-    display: flex;
-    max-width: 1338px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 72px;
-    padding-bottom: 38px;
-
-    align-items: center;
-  }
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+.page-header__container {
+  display: flex;
+  max-width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 72px;
+  padding-bottom: 38px;
+  align-items: center;
 }
+
 .page-header__nav {
   display: flex;
   margin-left: auto;
 }
+
 .page-header__list {
   display: flex;
   list-style: none;
 }
+
 .page-header__item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   color: #263238;
 }
+
 .page-header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.page-header__link {
-}
-.link {
-}
 .page-header__button {
   display: block;
   margin-left: 121px;
   width: 312px;
   height: 70px;
-
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-
   color: #000000;
   background-color: #fff;
-
   border: 2px solid #263238;
   border-radius: 10px;
 }
@@ -53,23 +52,7 @@
   font-size: 36px;
   line-height: 1.5;
   color: var(--prime-title-color);
-  &__accent {
-    color: #939393;
-  }
 }
-// =========
-// .page-footer {
-// }
-// &__list {
-//   display: flex;
-//   margin-left: auto;
-// }
-// &__item {
-//   font-size: 24px;
-//   line-height: 1.5;
-
-//   color: var(--main-text-color);
-// }
-// &__item:not(:last-child) {
-//   margin-right: 80px;
-// }
+.logo__accent {
+  color: #939393;
+}/*# sourceMappingURL=main.css.map */
