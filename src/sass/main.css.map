@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sourceRoot":"","sources":["main.scss","_header.scss"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAAA;ACCE;EACE;EACA;EACA;EACA;EACA;EACA;EAEA;;;AAGJ;EACE;EACA;;;AAEF;EACE;EACA;;;AAEF;EACE;EACA;EACA;EACA;;;AAEF;EACE;;;AAOF;EACE;EACA;EACA;EACA;EAEA;EACA;EACA;EAEA;EACA;EAEA;EACA;;;AAGF;EACE;EACA;EACA;;AACA;EACE","file":"main.css"}
+=======
+{"version":3,"sources":["main.css","main.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;;;EAAA","file":"main.css"}
+>>>>>>> Stashed changes
